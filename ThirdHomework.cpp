@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 
 int main() {
     setlocale(LC_ALL, "Russian");
@@ -6,8 +6,8 @@ int main() {
     std::cout << std::boolalpha;
     bool a, b, c;
 
-    // Òàáëèöà äëÿ îïåðàòîðà || (ëîãè÷åñêîå ÈËÈ)
-    std::cout << "Îïåðàòîð: ||" << std::endl;
+    // Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° Ð´Ð»Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€Ð° || (Ð»Ð¾Ð³Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ð˜Ð›Ð˜)
+    std::cout << "ÐžÐ¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€: ||" << std::endl;
 
     a = true;  b = true;
     c = a || b;
@@ -27,8 +27,8 @@ int main() {
 
     std::cout << std::endl;
 
-    // Òàáëèöà äëÿ îïåðàòîðà && (ëîãè÷åñêîå È)
-    std::cout << "Îïåðàòîð: &&" << std::endl;
+    // Ð¢Ð°Ð±Ð»Ð¸Ñ†Ð° Ð´Ð»Ñ Ð¾Ð¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€Ð° && (Ð»Ð¾Ð³Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ Ð˜)
+    std::cout << "ÐžÐ¿ÐµÑ€Ð°Ñ‚Ð¾Ñ€: &&" << std::endl;
 
     a = true;  b = true;
     c = a && b;
